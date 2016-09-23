@@ -1,5 +1,5 @@
 # resource-bundle-verifier-plugin
-A Maven Plugin to verify ResourceBundles. It verify missing and empty keys.
+A Maven Plugin to verify ResourceBundles. It verifies if there are missing and empty keys.
 
 ##Configuration
 Here is an example of the configuration need.
