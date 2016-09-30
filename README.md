@@ -17,7 +17,7 @@ Here is an example of the configuration need.
 			</execution>
 		</executions>
 		<configuration>
-			<localeFile>myMainLocale.properties</localeFile>
+			<localeFile>${project.basedir}/src/main/resources/myMainLocale.properties</localeFile>
 			<locales>
 				<param>${project.basedir}/src/main/resources/myLocale_fr_FR.properties</param>
 				<param>${project.basedir}/src/main/resources/myLocale_de_DE.properties</param>
