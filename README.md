@@ -25,7 +25,7 @@ Here is an example of the configuration need.
 		</configuration>
 	</plugin>
 ```
-###How does it works?
+###How does it work?
 Simple. You just need to define your main locale file path on tag "<localeFile>". The other locale files are defined on tag "<locales>" as shows above.
 
 ###Validations
