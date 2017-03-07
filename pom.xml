@@ -4,7 +4,7 @@
 
 	<groupId>com.rmrodrigues.maven.plugins.resource.bundle.verifier</groupId>
 	<artifactId>resource-bundle-verifier-plugin</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>resource-bundle-verifier-plugin</name>
