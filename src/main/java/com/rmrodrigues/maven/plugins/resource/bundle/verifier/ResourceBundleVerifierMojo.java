@@ -189,7 +189,7 @@ public class ResourceBundleVerifierMojo extends AbstractMojo {
                     errorMessages.add("The key: \"" + curMainPair.getKey() + "\" is missing.");
                 } else {
                     if ("".equals(value.toString())) {
-                        warnMessages
+                    	errorMessages
                                 .add("The key: \"" + curMainPair.getKey() + "\" has no value. Please check it out.");
                         emptyValues++;
                     } else if (curMainPair.getValue().equals(value)) {
