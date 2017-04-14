@@ -215,7 +215,7 @@ public class ResourceBundleVerifierMojo extends AbstractMojo {
             throw new MojoExecutionException("There are missing/emptry entries in your Locale resources.");
         }
         log.info("------------------------------------------------------------------------");
-        log.info("LOCALE VERIFICARION SUCCESSFUL");
+        log.info("LOCALE VERIFICATION SUCCESSFUL");
         log.info("------------------------------------------------------------------------");
 
     }
